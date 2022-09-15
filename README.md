@@ -2,11 +2,18 @@
 This is sample webapi written in python (django).
 
 # pythonanywhere: https://www.pythonanywhere.com/
-1. deploy use pa_autoconfigure_django
+1. deploy use pa_autoconfigure_django at console
     ```commandline
     pip3.9 install --user pythonanywhere
     pa_autoconfigure_django.py --python=3.9 https://github.com/TakanariShimbo/sample_webapi_django.git
     ```
+
+    automatically  
+    * created virutualenv as user_id.pythonanywhere.com
+    * clone repository
+
+2. enable Force HTTPS at web
+
 
 # How to create this
 0. install python, something virtualenv
